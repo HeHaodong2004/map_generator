@@ -1,0 +1,93 @@
+NORMAL===========================================
+Room (max 357 nodes)
+    map_params = {
+        'grid_size': 10,
+        'num_grids': 25,
+        'num_rooms': (10, 10),
+        'room_min_size': 2,
+        'room_max_size': 6,
+        'corridor_width': (1, 1),
+        'corridor_density': 0.1,
+        'draw_goal': False,
+        'prefix_name': 'room'
+    }
+
+Tunnel (max 276 nodes)
+    map_params = {
+        'grid_size': 10,
+        'num_grids': 25,
+        'num_rooms': (5, 5),
+        'room_min_size': 2,
+        'room_max_size': 6,
+        'corridor_width': (1, 1),
+        'corridor_density': 0.9,
+        'draw_goal': False,
+        'prefix_name': 'tunnel'
+    }
+
+Outdoor
+    map_params = {
+        'grid_size': 10,
+        'num_grids': 25,
+        'num_rooms': (7, 7),
+        'room_min_size': 2,
+        'room_max_size': 6,
+        'corridor_width': (2, 3),
+        'corridor_density': 0.5,
+        'draw_goal': False,
+        'prefix_name': 'outdoor'
+    }
+
+LARGE===========================================
+Room
+    map_params = {
+        'grid_size': 10,
+        'num_grids': 50,
+        'num_rooms': (25, 25),
+        'room_min_size': 3,
+        'room_max_size': 8,
+        'corridor_width': (1, 1),
+        'corridor_density': 0.05,
+        'draw_goal': False,
+        'prefix_name': 'room'
+    }
+
+Tunnel
+    map_params = {
+        'grid_size': 10,
+        'num_grids': 50,
+        'num_rooms': (15, 15),
+        'room_min_size': 3,
+        'room_max_size': 8,
+        'corridor_width': (1, 1),
+        'corridor_density': 0.5,
+        'draw_goal': False,
+        'prefix_name': 'tunnel'
+    }
+
+Outdoor
+    map_params = {
+        'grid_size': 10,
+        'num_grids': 50,
+        'num_rooms': (15, 15),
+        'room_min_size': 3,
+        'room_max_size': 8,
+        'corridor_width': (2, 3),
+        'corridor_density': 0.5,
+        'draw_goal': False,
+        'prefix_name': 'outdoor'
+    }
+
+
+NAVIGATION===========================================
+    map_params = {
+        'grid_size': 10,
+        'num_grids': 25,
+        'num_rooms': (6, 8),
+        'room_min_size': 2,
+        'room_max_size': 6,
+        'corridor_width': (1, 1),
+        'corridor_density': 0.3,
+        'draw_goal': True,
+        'prefix_name': 'maps'
+    }
